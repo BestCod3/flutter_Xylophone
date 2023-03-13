@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hylophone/pages/pianoPage.dart';
 
 void main() {
-  runApp(Hylophone());
+  runApp(const Hylophone());
 }
 
 class Hylophone extends StatelessWidget {
@@ -10,7 +10,7 @@ class Hylophone extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: PianoPage(),
     );

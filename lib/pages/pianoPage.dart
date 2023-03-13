@@ -1,4 +1,3 @@
-import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hylophone/widgets/custom_container.dart';
 
@@ -21,7 +20,7 @@ class PianoPage extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [
+        children: const [
           CustomContainer(
               bgColor: Color.fromRGBO(239, 68, 58, 1), noteNum: '1'),
           CustomContainer(
